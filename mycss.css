@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, #111827, #1F2937);
+  height: 100vh;
+  margin: 0;
+
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #282d48;
+    font-family: 'Courier New', monospace;
+    animation: colorChange 3s infinite alternate;
+  
+
+  }
+  @keyframes colorChange{
+    from { color: #4f5861; }
+    to { color: #4a535c; }
+  }
+  
+  .lyrics-container {
+      display: flex;
+      background: #1F2937;
+      color: white;
+      padding: 20px;
+      border-radius: 30px;
+      margin: 10px;
+      align-items: flex-start;
+      
+    
+  }
+  .lyrics-text {
+      font-family: 'Courier New', monospace;
+      flex: 1;
+      white-space: pre-wrap;
+      color:#5d698a;
+  }
+  .lyrics-image {
+      margin-left: 10px;
+  }
+  .lyrics-container:hover {
+    box-shadow: 0 0 15px #181926 ;
+    transition: 0.4s;
+    opacity: 0.3;
+  }
+  .text{
+    font-size:30px;
+    color:#282d48;
+    font-family: 'Courier New', monospace;
+  }
